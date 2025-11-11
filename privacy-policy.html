@@ -7,7 +7,7 @@
     <style>
       body {
         font-family: Arial, sans-serif;
-        background-color: #eeegf4;
+        background-color: #eeeff4;
         color: #353a48;
         padding: 20px;
         line-height: 1.6;
@@ -50,42 +50,99 @@
   </head>
   <body>
     <h1>Privacy Policy</h1>
-    <p>Last updated: <strong>May 15, 2025</strong></p>
+    <p>Last updated: <strong>November 11, 2025</strong></p>
 
     <p>
-      Skool Member Tagger is committed to protecting your privacy. This privacy policy
-      explains how we handle your data while using our Chrome extension.
+      Skool Member Tagger (the "Extension") respects your privacy. This policy
+      explains what information the Extension handles and how.
     </p>
 
-    <h2>No Data Collection</h2>
+    <h2>Scope</h2>
     <p>
-      Skool Member Tagger does not collect, store, or transmit any personal
-      information. All actions performed within the extension occur locally on
-      your device.
+      This policy applies to the Skool Member Tagger Chrome extension. It does not
+      cover the Skool platform or any other websites or services you access while
+      using the Extension.
+    </p>
+
+    <h2>Data We Collect</h2>
+    <p>
+      We do <strong>not</strong> collect, store, transmit, sell, or share any personal
+      information. The Extension does not send data to our servers, and we do not
+      use analytics, advertising, or tracking technologies.
+    </p>
+
+    <h2>Local Processing Only</h2>
+    <p>
+      To provide its functionality (for example, identifying and tagging community
+      members within Skool pages you open), the Extension may temporarily read and
+      process page content in your browser. All such processing occurs locally on your
+      device and is not transmitted to us.
+    </p>
+
+    <h2>Permissions and Purpose</h2>
+    <p>
+      The Extension requests only the minimum permissions needed to function. These
+      permissions are used solely to provide features and <strong>not</strong> to track
+      you or collect personal information. As listed in the extension manifest (MV3):
+    </p>
+    <ul>
+      <li><strong>host_permissions</strong>: <code>https://www.skool.com/*</code> — allow interaction with Skool pages you open.</li>
+      <li><strong>activeTab</strong> — enable features on the tab you explicitly activate.</li>
+      <li><strong>scripting</strong> — inject code required for on-page tagging features.</li>
+      <li><strong>storage</strong> — store non-personal, local preferences.</li>
+      <li><strong>contextMenus</strong> — add helpful right‑click menu actions.</li>
+    </ul>
+    <p>
+      <strong>Content scripts</strong>: The manifest includes a content script limited to
+      <code>https://www.skool.com/*</code>. It runs read‑only logic on Skool pages you open
+      to determine whether features should activate. Any page content access is processed
+      locally in your browser and is not transmitted to us.
+    </p>
+    <p>
+      You can view these permissions in your browser’s extension details. If our
+      permissions change, your browser will prompt you to review and approve them.
     </p>
 
     <h2>Third-Party Services</h2>
     <p>
-      Skool Member Tagger does not use any third-party services or integrations that
-      collect user data.
+      We do not use third-party analytics, advertising networks, or SDKs that collect
+      user data through the Extension.
     </p>
 
-    <h2>Permissions</h2>
+    <h2>Data Sharing and Sale</h2>
     <p>
-      This extension requests minimal permissions necessary to function. These permissions are used solely for providing
-      functionality and are not used to track or store data.
+      We do not share, sell, or rent any information.
+    </p>
+
+    <h2>Security</h2>
+    <p>
+      Because the Extension does not transmit or store personal information on our
+      systems, risk is reduced. Still, you should keep your browser and operating
+      system updated and use strong device security.
+    </p>
+
+    <h2>Children’s Privacy</h2>
+    <p>
+      The Extension is not directed to children under 13, and we knowingly collect no
+      information from children.
+    </p>
+
+    <h2>Your Privacy Rights</h2>
+    <p>
+      Where applicable (e.g., under GDPR/UK GDPR or CCPA/CPRA), you may have certain
+      rights regarding personal data. As the Extension does not collect personal data,
+      these rights are generally not implicated. If you have questions, contact us.
     </p>
 
     <h2>Changes to This Policy</h2>
     <p>
-      We reserve the right to update this privacy policy. Any changes will be
-      reflected on this page. Please check periodically for updates.
+      We may update this policy from time to time. Changes will be posted here with an
+      updated “Last updated” date. Please review periodically.
     </p>
 
     <h2>Contact Us</h2>
     <p>
-      If you have any questions or concerns about this privacy policy, feel free
-      to contact us at
+      Questions or concerns? Email us at
       <a href="mailto:contact@softwarequalityassociates.com">contact@softwarequalityassociates.com</a>.
     </p>
 
